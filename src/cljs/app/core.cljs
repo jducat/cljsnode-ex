@@ -30,7 +30,7 @@
           state (session/state initial)]
       (-> state
           (page :scripts (scripts initial)
-                :title "Jokes-jack2"
+                :title "Jokes"
                 :forkme true)
           (html5)))))
 
